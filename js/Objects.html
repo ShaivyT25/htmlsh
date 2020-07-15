@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script> 
+            // let name = prompt("Enter your name", "Shonda");
+            // var ob = {
+            //     name: 5 // Computed properties
+            // }
+            // alert(ob.Shonda);
+
+            // function makeUser(name, age) {
+            //     return {
+            //         name,
+            //         age
+            //     }
+            // }
+
+            // let user = makeUser("Jim", 22);
+            // alert(user.name);
+
+            ob = {
+                a: 200,
+                b: 100,
+                desc: "dimensions"
+            }
+
+            function double(obj) {
+                for(let key in obj) {
+                    if(typeof obj[key] == 'number') {
+                        obj[key] *= 2;
+                    }
+                }
+            }
+
+            double(ob);
+            console.log(ob);
+
+        </script>
+    </body>
+</html>
