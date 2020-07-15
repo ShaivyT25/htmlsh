@@ -1,0 +1,42 @@
+.parent{
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.child1 {
+    width:100px;
+    height:100px;
+    background:rgb(39, 61, 134);
+}
+
+.child2 {
+    width:100px;
+    height:100px;
+    background:rgb(172, 57, 53);
+}
+
+.child3 {
+    width:100px;
+    height:100px;
+    background:rgb(149, 43, 140);
+}
+
+.child4 {
+    width:100px;
+    height:100px;
+    background:rgb(39, 61, 134);
+}
+
+.child5 {
+    width:100px;
+    height:100px;
+    background:rgb(172, 57, 53);
+}
+
+.child6 {
+    width:100px;
+    height:100px;
+    background:rgb(149, 43, 140);
+}
