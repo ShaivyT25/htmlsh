@@ -1,14 +1,16 @@
 // Object creation syntax
-var user = new Object(); 
+//var user = new Object(); 
 
 // Object literal syntax
-const user = {
-    name: "Will",
-    age: 22,
-    homeAddress: "Paris" 
-}; 
+// const user = {
+//     name: "Will",
+//     age: 22,
+//     homeAddress: "Paris" 
+// }; 
 
-user.name = "Bill";
+// user.name = "Bill";
 
-console.log(user.name);
-console.log(user["age"]);
+// console.log(user.name);
+// console.log(user["age"]);
+
+let name = prompt;
